@@ -1,0 +1,13 @@
+{
+  "name": "match-day-automation",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "scrape:lincoln": "node scripts/scrape-lincoln-city.js",
+    "fetch:non-league": "node scripts/fetch-non-league.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
